@@ -39,7 +39,7 @@ Games which say "No Game Assets Available!" are Flash games and cannot be played
 
 Lastly, some games also load to the page with ads (like Vex 3). Just click the play button and it'll load in fullscreen.
 
-If you still wish to use the official site, drag this --> <a href="javascript:var listitems = document.getElementsByTagName('ad-wrapper');for (var i = 0; i < listitems.length; i++) {    var anchors = listitems[i].getElementsByTagName('a');    for (var j = 0; j < anchors.length; j++) {        anchors[j].style.display = 'none';    }}">Remove Ads</a> <-- to your bookmarks bar. Whenever you click on the bookmark, it will remove the ads.
+If you still wish to use the official site, drag this --> <a href="javascript:var paras = document.getElementsByClassName('ad-wrapper'); while(paras[0]) { paras[0].parentNode.removeChild(paras[0]); }">Remove Ads</a> <-- to your bookmarks bar. Whenever you click on the bookmark, it will remove the ads.
   
 Have fun.
   
