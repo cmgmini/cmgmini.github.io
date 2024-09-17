@@ -42,6 +42,14 @@ Lastly, some games also load to the page with ads (like Vex 3). Just click the p
 If you still wish to use the official site, drag this --> <a href="javascript:var paras = document.getElementsByClassName('ad-wrapper'); while(paras[0]) { paras[0].parentNode.removeChild(paras[0]); }">Remove Ads</a> <-- to your bookmarks bar. Whenever you click on the bookmark, it will remove the ads.
   
 Have fun.
+
+<script language="javascript" type="text/javascript">
+    function buttonClick(){
+    var url = document.getElementById("inputURL").value;
+    window.location = 'https://cmgmini.github.io/#:~:text=' + url.value;
+    }
+</script>
+Game Title: <input type="text" id="inputURL" name="inputURL" value=""><input type="button" value="Search" OnClick="buttonClick()"/>
   
 <a href="https://coolmathgames.com" target="_blank">Official CoolMathGames site</a>
 <hr style="clear:both;"/></p>
