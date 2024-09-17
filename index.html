@@ -48,8 +48,8 @@ Have fun.
 <script language="javascript" type="text/javascript">
 function gotoPage(){
   var page_val = document.getElementById('page').value;
-  document.getElementById('page').value = "";
   if(page_val){
+    document.getElementById('page').value = "";
     window.location.replace("https://cmgmini.github.io/#:~:text=" + page_val);
   }
   else{
